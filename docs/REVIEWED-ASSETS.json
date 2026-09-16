@@ -1,0 +1,36 @@
+{
+  "assets": [
+    {
+      "path": "examples/generated-media/pilot-still.png",
+      "sha256": "6e3ee1f11162db21762ee66e41f3fae3376111d6a3d6dc15fb61c3e0b1eec397"
+    },
+    {
+      "path": "examples/showcase/poster.jpg",
+      "sha256": "b61321eb3820101e8587e61a3708d3b6d949df3d57dda8d741e3f0b4957d4b6b"
+    },
+    {
+      "path": "examples/showcase/presentation/assets/geist-mono.woff2",
+      "sha256": "d862e0cb912309b51e5408427216d449095092c53345af79ae9da917fb3fb8eb"
+    },
+    {
+      "path": "examples/showcase/presentation/assets/geist.woff2",
+      "sha256": "9b6f5ff45b278c744b5f379a2c4ecbaf858a842b8eaf82ac8d21b699ca16c608"
+    },
+    {
+      "path": "examples/showcase/presentation/assets/logo.png",
+      "sha256": "528082e7689e8edbab72af659e12e08bf1b322e84d4b38e98dea37b317f30835"
+    },
+    {
+      "path": "examples/showcase/video/01-parts.mp4",
+      "sha256": "6416c568e9e937d8264eb72b65ab43d885c35d17152396ec7db2dcbc86145a83"
+    },
+    {
+      "path": "examples/showcase/video/02-connect.mp4",
+      "sha256": "6c71b21fdb4eb52e1375d63135769602314519a17718c939b7e1caafc23bf134"
+    },
+    {
+      "path": "examples/showcase/video/03-system.mp4",
+      "sha256": "7b849c26015e6b2dc85d076ad75cd36f6b8f46c4c485a42718be53f6b3fd06a0"
+    }
+  ]
+}

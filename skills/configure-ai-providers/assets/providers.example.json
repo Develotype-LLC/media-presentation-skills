@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "routes": {"language": "local-text", "media": "manual-media"},
+  "profiles": {
+    "local-text": {
+      "adapter": "openai-chat",
+      "base_url_env": "LOCAL_TEXT_BASE_URL",
+      "model_env": "LOCAL_TEXT_MODEL",
+      "api_key_env": "LOCAL_TEXT_API_KEY",
+      "require_api_key": false,
+      "timeout_seconds": 120,
+      "max_output_tokens": 512,
+      "token_limit_field": "max_tokens"
+    },
+    "ollama-text": {
+      "adapter": "ollama-chat",
+      "base_url_env": "OLLAMA_BASE_URL",
+      "model_env": "OLLAMA_MODEL",
+      "timeout_seconds": 120,
+      "max_output_tokens": 512
+    },
+    "cloud-text": {
+      "adapter": "openai-chat",
+      "base_url_env": "CLOUD_TEXT_BASE_URL",
+      "model_env": "CLOUD_TEXT_MODEL",
+      "api_key_env": "CLOUD_TEXT_API_KEY",
+      "require_api_key": true,
+      "timeout_seconds": 120,
+      "max_output_tokens": 512,
+      "token_limit_field": "max_completion_tokens"
+    },
+    "comfyui-media": {
+      "adapter": "comfyui",
+      "base_url_env": "COMFYUI_BASE_URL",
+      "api_key_env": "COMFYUI_API_KEY",
+      "require_api_key": false,
+      "timeout_seconds": 30
+    },
+    "manual-media": {"adapter": "manual"}
+  }
+}

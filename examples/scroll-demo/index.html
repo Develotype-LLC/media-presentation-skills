@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Scroll interaction laboratory</title></head>
+<body><div id="world"></div><script src="../../skills/build-scroll-video/references/scrub-engine.js"></script>
+<script>
+mountScrollWorld(document.getElementById('world'), {
+ brand:{name:'Interaction laboratory'},architecture:'continuous',strict:true,fps:24,fit:'contain',
+ sections:[
+  {id:'start',label:'Start',still:'media/poster0.png',clip:'media/leg0.mp4',eyebrow:'Forward',title:'Scroll to move.',body:'Stop to freeze. Reverse to retrace.',accent:'#60d5ed'},
+  {id:'end',label:'Finish',still:'media/poster1.png',clip:'media/leg1.mp4',eyebrow:'Continue',title:'One shared playhead.',body:'Check the seam in both directions.',accent:'#c6f18c'}
+ ],connectors:[]
+});
+</script></body></html>

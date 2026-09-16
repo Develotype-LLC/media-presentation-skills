@@ -1,0 +1,10 @@
+{
+  "public_sources": [
+    {
+      "url": "https://github.com/oso95/scroll-world",
+      "distributed_file": "skills/build-scroll-video/references/scrub-engine.js",
+      "sha256": "8845c2f01a38db874c27ba166eae99b9fa23860c4938f53b2e2de5c6e7bbec20",
+      "license": "MIT; adjacent LICENSE-scroll-world"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"name":"media-skills-composition-example","version":"0.1.0","private":true,"scripts":{"studio":"remotion studio src/index.tsx","still":"remotion still src/index.tsx Story out/frame.png --frame=48","render":"remotion render src/index.tsx Story out/story.mp4"},"dependencies":{"@remotion/cli":"4.0.518","remotion":"4.0.518","react":"19.0.0","react-dom":"19.0.0"}}

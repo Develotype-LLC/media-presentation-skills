@@ -1,0 +1,3 @@
+beat_id,source_slide,duration_seconds,message,visible_action,method,overlay,narration_path,clean_media_path,evidence_status,review_status
+B01,,7,Introduce the idea,Object enters the path,blender,One clear pilot,,,illustrative,proposed
+B02,,9,Expose the obstacle,Reveal unclear branches,blender,Choose the problem,,,illustrative,proposed

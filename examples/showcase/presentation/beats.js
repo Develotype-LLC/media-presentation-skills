@@ -1,0 +1,162 @@
+window.BEATS = [
+  {
+    "id": "start",
+    "eyebrow": "Systems consulting",
+    "title": "MAKE ROOM\nFOR WHAT\u2019S NEXT.",
+    "body": "Scaling asks more of your operations. Build systems that let your team keep moving.",
+    "items": [
+      "Diagnose the friction",
+      "Design the operating path",
+      "Build alongside the team"
+    ],
+    "video": "../video/01-parts.mp4",
+    "durationSeconds": 38,
+    "notes": "Start with a familiar moment. The business has grown, but work still moves through the same informal handoffs. More requests create more follow-ups, more exceptions, and more time spent finding the latest answer. This presentation explores an approach to that problem: diagnose where work gets stuck, design a clearer operating path, and build practical systems alongside the people who use them. It is an illustrative demonstration informed by Develotype\u2019s public positioning, not a client case study or a promise of quantified outcomes. The decision at the end is deliberately small: choose one important workflow to understand well enough to improve.",
+    "evidence": "https://www.develotype.com/",
+    "method": "Local AI footage + editable HTML"
+  },
+  {
+    "id": "friction",
+    "eyebrow": "01 / The operating problem",
+    "title": "GROWTH REVEALS\nTHE GAPS.",
+    "body": "The work scales. The coordination often scales faster.",
+    "items": [
+      "Requests arrive across channels",
+      "Context travels through people",
+      "Exceptions interrupt the next task"
+    ],
+    "video": null,
+    "durationSeconds": 38,
+    "notes": "Picture a request that starts in an email, gets clarified in a chat, and is completed in a spreadsheet. Each tool may work perfectly. The problem lives between them: who owns the next step, which information is current, and what happens when the ordinary path does not fit. As volume grows, people compensate by remembering more and checking more often. That is operational noise. Our example is not evidence that every organization has this exact problem. It is a way to make the pattern visible, so the team can identify its own version before choosing a solution.",
+    "evidence": "https://www.develotype.com/",
+    "method": "Editable native HTML diagram"
+  },
+  {
+    "id": "diagnose",
+    "eyebrow": "02 / Diagnose",
+    "title": "FOLLOW THE WORK.\nFIND THE FRICTION.",
+    "body": "Start with a real request, from arrival to resolution.",
+    "items": [
+      "Trace inputs, decisions, and handoffs",
+      "Ask where people wait or re-enter data",
+      "Separate the rule from the exception"
+    ],
+    "video": null,
+    "durationSeconds": 38,
+    "notes": "Diagnosis begins with an actual piece of work rather than a wish list of features. Follow one request from its arrival to its resolution. What information comes in? Which decisions are made? Who makes them? Where does someone wait, copy information, or ask for context? Capture the exceptions too, because those often explain why a seemingly simple automation fails in practice. The output is a shared picture of the workflow and a focused problem statement. That gives leaders and operators something concrete to agree on before time is spent implementing a new system.",
+    "evidence": "https://www.develotype.com/",
+    "method": "Editable native HTML diagram"
+  },
+  {
+    "id": "design",
+    "eyebrow": "03 / Design",
+    "title": "MAKE THE NEXT\nSTEP OBVIOUS.",
+    "body": "A useful system clarifies decisions, ownership, and the path through exceptions.",
+    "items": [
+      "One clear starting point",
+      "Explicit decision and handoff rules",
+      "A visible route for exceptions"
+    ],
+    "video": null,
+    "durationSeconds": 38,
+    "notes": "Design translates what we learned into a clearer operating path. For each step, define the owner, the required information, and the condition that allows work to move forward. Keep the exception path visible: a person needs to know how to resolve ambiguity, not just how to process a perfect request. A good design can be explained without naming a particular software product. That is a helpful test. If the team cannot explain how the work should move, adding more software may simply hide the confusion inside a new interface. First make the operating logic understandable, then choose how to implement it.",
+    "evidence": "https://www.develotype.com/",
+    "method": "Editable native HTML diagram"
+  },
+  {
+    "id": "build",
+    "eyebrow": "04 / Build",
+    "title": "TURN THE DESIGN\nINTO DAILY PRACTICE.",
+    "body": "Implement a usable slice, observe real work, and improve it with the team.",
+    "items": [
+      "Build a small end-to-end path",
+      "Keep the people doing the work involved",
+      "Refine around observed exceptions"
+    ],
+    "video": "../video/02-connect.mp4",
+    "durationSeconds": 38,
+    "notes": "The build phase turns the proposed path into something the team can use. Start with an end-to-end slice that is small enough to understand: one type of request, one owner, and a clear outcome. Connect the necessary tools, make the next action visible, and keep a person involved where judgment is required. Then observe what happens when real work meets the design. Which assumptions were wrong? Which exceptions repeat? Implementation is not finished just because a screen loads. The useful result is an operating path that people can follow, maintain, and improve as their needs change.",
+    "evidence": "https://www.develotype.com/",
+    "method": "Local AI footage + editable HTML"
+  },
+  {
+    "id": "example",
+    "eyebrow": "05 / An illustrative workflow",
+    "title": "FROM REQUEST\nTO RESOLUTION.",
+    "body": "A sample intake workflow makes the design tangible.",
+    "items": [
+      "Capture the request and needed context",
+      "Route by an explicit rule; review uncertainty",
+      "Deliver the result and record its status"
+    ],
+    "video": null,
+    "durationSeconds": 38,
+    "notes": "Here is a deliberately generic example: internal request intake. A request enters through a defined starting point. The system checks whether the information needed for a decision is present. Clear cases follow a documented routing rule. Uncertain or unusual cases go to a person with enough context to make the decision. Once the work is complete, the result and status are recorded so the requester does not have to chase an update. This is a proposed workflow example, not a deployed Develotype customer system. Its purpose is to show how ownership, information, and exceptions fit together.",
+    "evidence": "Illustrative workflow / skill-library demonstration; no client outcome claimed",
+    "method": "Editable native HTML diagram"
+  },
+  {
+    "id": "safeguards",
+    "eyebrow": "06 / Safeguards",
+    "title": "AUTOMATE THE ROUTINE.\nKEEP JUDGMENT VISIBLE.",
+    "body": "Reliability includes what happens when the ordinary path stops working.",
+    "items": [
+      "Define what automation may decide",
+      "Make review and recovery explicit",
+      "Keep credentials and private data controlled"
+    ],
+    "video": null,
+    "durationSeconds": 38,
+    "notes": "Automation needs boundaries that people can understand. Define which decisions can follow a rule and which require review. Record enough context to explain what happened, and create a recovery path for incomplete inputs, provider failures, or incorrect outputs. In an AI-assisted workflow, model output is an input to the process, not automatic evidence that the decision is correct. The same principle applies to media: a convincing image is not proof of a real event or a technical mechanism. These are design principles for this demonstration, rather than a claim that every system ships with the same controls.",
+    "evidence": "Illustrative workflow / skill-library demonstration; no client outcome claimed",
+    "method": "Editable native HTML diagram"
+  },
+  {
+    "id": "media",
+    "eyebrow": "07 / Apply it to creative work",
+    "title": "ONE STORY.\nMANY USEFUL FORMATS.",
+    "body": "Treat media production as an editable workflow, from the brief to the final experience.",
+    "items": [
+      "Plan the audience, decision, and evidence",
+      "Generate atmosphere; diagram exact relationships",
+      "Compose editable labels, notes, and playback"
+    ],
+    "video": null,
+    "durationSeconds": 38,
+    "notes": "The skill library applies this operating approach to creative production. Start with the audience, the desired decision, and the evidence the story needs. Break the narrative into beats. Choose the right method for each beat: generated footage for atmosphere, Blender where spatial structure needs control, and native diagrams where a relationship must be exact. Keep labels and explanations editable outside the footage. That makes it possible to revise the story without regenerating every visual. This presentation is one test of that process: the narrative, media mapping, and speaker notes remain separate pieces that another person can inspect and change.",
+    "evidence": "Illustrative workflow / skill-library demonstration; no client outcome claimed",
+    "method": "Editable native HTML diagram"
+  },
+  {
+    "id": "portable",
+    "eyebrow": "08 / A portable production path",
+    "title": "CHOOSE THE TOOL.\nKEEP THE WORKFLOW.",
+    "body": "Local and cloud generation share a brief, but capability and results vary.",
+    "items": [
+      "Configure your own provider and model",
+      "Test one small shot before a batch",
+      "Review actual output before reuse"
+    ],
+    "video": "../video/03-system.mp4",
+    "durationSeconds": 38,
+    "notes": "Portability means making the workflow understandable and configurable. It does not mean every model or machine produces the same result. A local video model, a cloud service, and a manual production tool can serve the same beat, provided their actual capabilities match the task. Test one small output first. Record the prompt, method, and review findings. Keep private connection settings outside distributable files. The footage in this demonstration illustrates a system coming together; it does not establish a technical mechanism. What transfers to the next project is the brief, the review process, and the editable structure around the media.",
+    "evidence": "Illustrative workflow / skill-library demonstration; no client outcome claimed",
+    "method": "Local AI footage + editable HTML"
+  },
+  {
+    "id": "next",
+    "eyebrow": "09 / The next step",
+    "title": "START WITH\nONE WORKFLOW.",
+    "body": "Choose the piece of work that deserves a clearer path.",
+    "items": [
+      "Name the friction that matters",
+      "Trace one real example with the team",
+      "Agree on the smallest useful change"
+    ],
+    "video": null,
+    "durationSeconds": 38,
+    "notes": "The next step is not a large transformation program. It is a focused conversation about one workflow. Name the friction in terms the team recognizes. Bring one recent example and follow it from beginning to end. Agree on what a better path would make easier, and identify the smallest change worth trying. That creates a practical starting point for diagnosis, design, and implementation. For the skill library, the parallel next step is to review this complete artifact: does the story hold together, do the media genuinely play, and can someone else change a beat without rediscovering the entire production setup?",
+    "evidence": "https://www.develotype.com/",
+    "method": "Editable native HTML diagram"
+  }
+];

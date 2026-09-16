@@ -1,0 +1,15 @@
+{
+  "assets": [
+    {
+      "path": "pilot-still.png",
+      "sha256": "6e3ee1f11162db21762ee66e41f3fae3376111d6a3d6dc15fb61c3e0b1eec397",
+      "kind": "AI-generated still",
+      "provider": "Codex built-in image generation",
+      "model": "Not exposed by tool response",
+      "generated": "2026-09-16",
+      "review": "Visually inspected: one orange marble, teal ceramic track and three spare modules; no visible text, logos or people. Illustrative metaphor only.",
+      "cost": "Not reported by tool",
+      "prompt_file": "prompt.txt"
+    }
+  ]
+}

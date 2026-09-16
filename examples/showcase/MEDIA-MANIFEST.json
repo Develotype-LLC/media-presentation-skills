@@ -1,0 +1,20 @@
+{
+  "method": "local text-to-video",
+  "model": "LTX 2.5",
+  "dimensions": [
+    512,
+    288
+  ],
+  "fps": 24,
+  "frames_per_clip": 97,
+  "seconds_per_clip": 4.041667,
+  "total_job_poll_download_seconds": 345.91,
+  "cloud_generation": false,
+  "cloud_assisted_planning_and_coding": true,
+  "clips": [
+    "01-parts.mp4",
+    "02-connect.mp4",
+    "03-system.mp4"
+  ],
+  "qualification": "Preview-quality illustrative shots; no still conditioning or exact continuity tested; custom live driver, bundled client dry-run only."
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "asset_id": "B01-v001",
+      "beat_id": "B01",
+      "status": "proposed",
+      "method": "blender",
+      "source_file": null,
+      "clean_media": null,
+      "overlay_source": null,
+      "narration_takes": [],
+      "provider": null,
+      "model_version": null,
+      "workflow_sha256": null,
+      "prompt": null,
+      "seed": null,
+      "job_id": null,
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "duration_seconds": 7,
+      "observed_generation_seconds": null,
+      "actual_cost": null,
+      "rights_note": "Original abstract scene; review any added assets separately",
+      "review_note": "Proposed only; no media generated"
+    }
+  ]
+}
